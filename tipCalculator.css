@@ -1,0 +1,21 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+button, input{
+    margin: 10px 0px;
+}
+button{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor:pointer;
+}
